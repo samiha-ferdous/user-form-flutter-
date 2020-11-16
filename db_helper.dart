@@ -6,6 +6,7 @@ import 'package:path_provider/path_provider.dart';
 import 'model.dart';
 
 class DBHelper{
+  
   static Database _db;
   static const String CONTACT1 = 'contact1';
   static const String CONTACT2 = 'contact2';
