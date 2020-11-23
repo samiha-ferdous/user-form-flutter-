@@ -34,10 +34,7 @@ class Info_display extends StatelessWidget {
                 Text(model.eContact3, style: TextStyle(fontSize: 22)),
                 Text(model.eContact4, style: TextStyle(fontSize: 22)),
                 Text(model.eContact5, style: TextStyle(fontSize: 22)),
-
-
-
-
+                
                 RaisedButton(
                   onPressed: (){
                     Navigator.pop(context);
